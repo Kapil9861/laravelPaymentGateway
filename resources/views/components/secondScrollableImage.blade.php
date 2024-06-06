@@ -1,5 +1,5 @@
 @php
-$images=[asset('images/start.png'),asset('images/35-min.png'),asset('images/6-min.png'),asset('images/33-min.png'),asset('images/34-min.png'),asset('images/20.png'),asset('images/25.png'),asset('images/24.png')];
+$images=[asset('images/logo.png'),asset('images/c1-min.png'),asset('images/c2-min.png'),asset('images/c3-min.png'),asset('images/c4-min.png')];
 @endphp
 
 <div id="imageContainer" class="image-container">

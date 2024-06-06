@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <input type="hidden" name="_token" value="{{csrf_token()}}">
     <button type="submit">Proceed To Checkout</button>
 </form>
-@include('components.introduction',['introduction'=>'The game is currently not available in Apple store and is in Internal Testing Section in Google Play Console and will be available on 1st July(Estimated).'])
+@include('components.helper_tutorial',['content'=>'The game is currently not available in Apple store and is in Internal Testing Section in Google Play Console and will be available on 1st July(Estimated).'])
 @include('components.introduction',['introduction'=>'However, if you want to use the application right away, download the .aab file below: '])
 <div class="image-container1">
 

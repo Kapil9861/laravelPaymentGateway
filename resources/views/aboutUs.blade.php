@@ -1,22 +1,14 @@
 @extends('app')
 @section('content')
-@include('components.textContent',['headerContent'=>'Welcome to Sajilo Hisab!','bodyContent'=>'Sajilo Hisab, your ultimate point calculating application designed to enhance your experience playing the marriage card game and call break. Say goodbye to mind-boggling and hectic calculations that can sometimes dampen the fun of these beloved games. With Sajilo Hisab, you can enjoy seamless and accurate calculations, allowing you to focus on the excitement and strategy of the game itself.'])
-@include('components.textContent',['headerContent'=>'About Sajilo Hisab','bodyContent'=>'Sajilo Hisab is more than just a point calculating app – it\'s your companion for making the marriage card game and call break even more interesting and enjoyable. Whether you\'re a seasoned player or new to the game, our app is here to simplify the scoring process, ensuring fair and accurate results every time.'])
-@include('components.textContent',['headerContent'=>'Mission','bodyContent'=>'At Sajilo Hisab, our mission is simple: to enhance your gaming experience by providing a reliable and efficient solution for point calculation. We believe that every player deserves a stress-free and enjoyable gaming experience, and our app is designed to make that a reality.'])
+@include('components.introduction', ['introduction' => 'Welcome to The Designers! We specialize in creating high-quality 3D designs related to the human body. Our designs are available for purchase at affordable prices, making it easy for you to access top-notch designs without breaking the bank. Explore our collection and bring your projects to life with our stunning 3D models.'])
+@include('components.textContent', ['headerContent' => 'High-Quality 3D Human Body Designs', 'bodyContent' => 'Our 3D human body designs are crafted with precision and attention to detail. Whether you are a designer, educator, or healthcare professional, our models are perfect for a wide range of applications. Discover the perfect design to meet your needs and elevate your work with our expertly crafted models.'])
+@include('components.textContent', ['headerContent' => 'Affordable Pricing', 'bodyContent' => 'At The Designers, we believe that high-quality 3D designs should be accessible to everyone. That’s why we offer our designs at competitive prices. Check out our pricing page to see how affordable our models are and start enhancing your projects today.'])
+@include('components.textContent', ['headerContent' => 'About Us', 'bodyContent' => 'The Designers is your go-to source for high-quality 3D human body designs. Our team of experts is dedicated to creating detailed and accurate models that can be used in various fields, including education, healthcare, and entertainment. We strive to provide our customers with the best products at affordable prices.'])
+@include('components.textContent', ['headerContent' => 'Mission', 'bodyContent' => 'At The Designers, our mission is simple: to make high-quality 3D human body designs accessible to everyone. We are committed to providing affordable, accurate, and detailed models that can help you achieve your project goals. Our team works tirelessly to ensure that each design meets our high standards of quality and precision.'])
+
 <div class="text" style="text-align: center;">
     <div style="padding: 8px; padding-top:0px">
-        <div style="font-size: 22px;">Developed By: Kapil Aryal</div>
-    </div>
-    <div style="padding: 8px;">
-        <div style="font-size: 20px;">Special Thanks To:</div>
-    </div>
-    <div style="padding: 8px;">
-        <div style="font-size: 20px;">
-            Mr. Rohit Pandey (Supervisor and Helping in Report and Adding Functionality)<br>
-            Aryal Family (Hari Prasad Aryal, Sudarsan Prasad Aryal, Krishna Prasad Aryal, Narayan Aryal, Kushal Aryal) For Helping During the Debugging<br><br>
-            Shiwam Paudel (Helping during Development of Application)<br><br>
-            Pabitra Aryal and Sudeep Puri (Providing Moral Support)
-        </div>
+        <div style="font-size: 22px;">Developed By: The Designers</div>
     </div>
 </div>
 
