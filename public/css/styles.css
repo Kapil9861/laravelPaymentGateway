@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(37, 22, 70);
+    color: white;
+}
+
+.logo img {
+    width: 60px; /* Adjust the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgb(51, 32, 93);
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(0);
+}
+
+.footer.hidden {
+    transform: translateY(100%);
+}
+
+.footer p {
+    margin: 0;
+}
+
+@media (min-width: 316px) {
+    .title a {
+        font-size: 11px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navigation ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        padding-right: 10px;
+    }
+    
+    .navigation li {
+        margin-left: 8px;
+    }
+    
+    .navigation li:first-child {
+        margin-left: 0;
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width: 331px) {
+    .title a {
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navigation ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        padding-right: 15px;
+    }
+    
+    .navigation li {
+        margin-left: 16px;
+    }
+    
+    .navigation li:first-child {
+        margin-left: 0;
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 361px) {
+    .title a {
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navigation ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        padding-right: 15px;
+    }
+    
+    .navigation li {
+        margin-left: 16px;
+    }
+    
+    .navigation li:first-child {
+        margin-left: 0;
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 391px) {
+    .title a {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navigation ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        padding-right: 20px;
+    }
+    
+    .navigation li {
+        margin-left: 22px;
+    }
+    
+    .navigation li:first-child {
+        margin-left: 0;
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+}
+
+
+@media (min-width: 413px) {
+    .title a {
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navigation ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        padding-right: 25px;
+    }
+    
+    .navigation li {
+        margin-left: 26px;
+    }
+    
+    .navigation li:first-child {
+        margin-left: 0;
+    }
+    
+    .navigation a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 650px) {
+    
+.title a {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding-right: 100px;
+}
+
+.navigation li {
+    margin-left: 80px;
+}
+
+.navigation li:first-child {
+    margin-left: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+}
