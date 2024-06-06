@@ -21,16 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <div id="welcome-text"></div>
 @include('components.secondScrollableImage')
-<form action="{{route('index')}}" method="get">
-    <input type="hidden" name="_token" value="{{csrf_token()}}">
-    <button type="submit">Proceed To Checkout</button>
-</form>
-@include('components.helper_tutorial',['content'=>'The game is currently not available in Apple store and is in Internal Testing Section in Google Play Console and will be available on 1st July(Estimated).'])
-@include('components.introduction',['introduction'=>'However, if you want to use the application right away, download the .aab file below: '])
-<div class="image-container1">
-
-  <a href="{{ url('/download-aab') }}" class="btn btn-primary"><img src="{{asset('images/aab.png')}}" alt="download .aab file"></a>
-</div>
-
-@include('components.introduction',['introduction'=>'Once the file is downloaded, download a .aab to .apk converter as your choice and once the file is converted into .apk file, you can install by clicking the .apk file'])
+@include('components.product_container',['image1'=>asset("images/a-min.png"),'product1'=>'Item 1','id1'=>1,'amount1'=>50,'image2'=>asset("images/b-min.png"),'product2'=>'Item 2','id2'=>2,'amount2'=>40,'image3'=>asset("images/c-min.png"),'product3'=>'Item 2','id3'=>3,'amount3'=>45])
+@include('components.product_container',['image1'=>asset("images/d-min.png"),'product1'=>'Item 1','id1'=>1,'amount1'=>50,'image2'=>asset("images/e-min.png"),'product2'=>'Item 2','id2'=>2,'amount2'=>40,'image3'=>asset("images/f-min.png"),'product3'=>'Item 2','id3'=>3,'amount3'=>45])
+@include('components.product_container',['image1'=>asset("images/h-min.png"),'product1'=>'Item 1','id1'=>1,'amount1'=>50,'image2'=>asset("images/i-min.png"),'product2'=>'Item 2','id2'=>2,'amount2'=>40,'image3'=>asset("images/g-min.png"),'product3'=>'Item 2','id3'=>3,'amount3'=>45])
+@include('components.product_container1',['image1'=>asset("images/aa-min.png"),'product1'=>'Item 1','id1'=>1,'amount1'=>50,'image2'=>asset("images/bb-min.png"),'product2'=>'Item 2','id2'=>2,'amount2'=>40])
 @endsection
