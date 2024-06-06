@@ -221,9 +221,11 @@
         cursor: pointer;
     }
     .amount {
-        font-size: 0.8em;
-        color: #888;
+        font-size: 1.6em;
+        color: #0581fe;
+        padding-top: 8px;
     }
+
     .product-container {
         display: flex;
         flex-wrap: wrap;
@@ -246,4 +248,31 @@
         margin-bottom: 10px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     }
-
+    .button {
+      display: inline-block;
+      padding: 10px 40px;
+      font-size: 20px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #04AA6D;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
+    
+    .button:hover {background-color: #3e8e41}
+    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    .payButton{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px;
+    }

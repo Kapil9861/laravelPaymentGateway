@@ -11,15 +11,17 @@ class StripeController extends Controller
     }
     public function checkout(){
         \Stripe\Stripe::setApiKey(config('stripe.sk'));
+        $amount=request()->input('amount');
+        $name=request()->input('product_name');
 $session=\Stripe\Checkout\Session::create([
     'line_items' =>[
         [
         'price_data' =>[
             'currency' => 'USD',
             'product_data' =>[
-                'name' => 'Purchase Item!',
+                'name' => $name,
               ],
-                'unit_amount' =>5000,
+                'unit_amount' =>$amount*100,
              ],
               'quantity' =>1,
          ],
