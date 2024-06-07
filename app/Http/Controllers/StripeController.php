@@ -17,7 +17,7 @@ $session=\Stripe\Checkout\Session::create([
     'line_items' =>[
         [
         'price_data' =>[
-            'currency' => 'USD',
+            'currency' => 'AUD',
             'product_data' =>[
                 'name' => $name,
               ],
