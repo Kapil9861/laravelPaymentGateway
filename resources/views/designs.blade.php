@@ -1,5 +1,16 @@
 @extends('app')
 @section('content')
+@if(session('error'))
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: "{{ session('error') }}",
+                });
+            });
+        </script>
+    @endif
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const welcomeText = document.getElementById("welcome-text");
