@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DESIGNERS NEPAL</title>
+    <link rel="icon" href="{{ asset('images/logo.png') }}" type="image/x-icon">
     <link href="{{ secure_asset('css/componentStyling.css') }}" rel="stylesheet">
     <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
